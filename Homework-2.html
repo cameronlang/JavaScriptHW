@@ -15,9 +15,26 @@ console.log('Hello' + (name));
 var nameOne = prompt('What is your name?');
 console.log('nameOne');
 
-
 var nameTwo = prompt('What is your name?');
 console.log('nameTwo');
+
+
+
+function winner(home, away){
+  if (home > away){
+    console.log('The home team won.');
+  }
+  else if(home < away){
+    console.log('The away team won.');
+  }
+  else {
+    console.log('The game ended in a tie!');
+  }
+}
+
+winner(5,4);
+winner(2,3);
+winner(5,5);
 
 
   </script>
